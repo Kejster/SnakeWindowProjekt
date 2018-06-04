@@ -1,0 +1,17 @@
+Tablica wynikow dla pomoziomu TRUDNY
+miejsce    wynik
+1  	30
+2  	28
+3  	23
+4  	23
+5  	22
+6  	21
+7  	20
+8  	18
+9  	17
+10	16
+11	15
+12	14
+13	12
+14	11
+15	11

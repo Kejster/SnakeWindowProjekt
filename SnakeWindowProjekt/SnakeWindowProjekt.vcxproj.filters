@@ -9,9 +9,226 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Resources">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Grafika">
+      <UniqueIdentifier>{7a2ba879-da5d-4dfd-bcf1-8f790c736aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TabliceWynikow">
+      <UniqueIdentifier>{32487427-ec52-4aed-a8b3-db52e29a4f50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrototypyWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImplementacjaWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeWindowMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Grafika\hbmpBlad.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpCialo_Weza.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpCialoPionowo.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpCialoPoziomo.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpEfekt.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowa_Weza.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaD_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaG.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaG_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaL_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaP_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretDL_G_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretDL_P_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretDP_G_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretDP_L_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretGL_D_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretGL_P_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretGP_D_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpGlowaSkretGP_L_DEAD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszA.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszA_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszD_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszS.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszS_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszSpacja.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszSpacja_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_D.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_D_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_G.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_G_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_L.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_L_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_P.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszStrzalka_P_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszW.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpKlawiszW_Zaznaczone.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpOgonD.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpOgonG.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpOgonL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpOgonP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpOwoc.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaDL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaDP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaGL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaGP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaPionowo.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpScianaPoziomo.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpSkretDL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpSkretDP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpSkretGL.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpSkretGP.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\hbmpTrawaTlo.bmp">
+      <Filter>Grafika</Filter>
+    </Image>
+    <Image Include="Grafika\Ikona.ico">
+      <Filter>Grafika</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Prace C++\SnakePliki\HMENU.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TabliceWynikow\tablicaWynikowLATWY.txt">
+      <Filter>TabliceWynikow</Filter>
+    </Text>
+    <Text Include="TabliceWynikow\tablicaWynikowNORMALNY.txt">
+      <Filter>TabliceWynikow</Filter>
+    </Text>
+    <Text Include="TabliceWynikow\tablicaWynikowOP.txt">
+      <Filter>TabliceWynikow</Filter>
+    </Text>
+    <Text Include="TabliceWynikow\tablicaWynikowSREDNI.txt">
+      <Filter>TabliceWynikow</Filter>
+    </Text>
+    <Text Include="TabliceWynikow\tablicaWynikowTRUDNY.txt">
+      <Filter>TabliceWynikow</Filter>
+    </Text>
   </ItemGroup>
 </Project>

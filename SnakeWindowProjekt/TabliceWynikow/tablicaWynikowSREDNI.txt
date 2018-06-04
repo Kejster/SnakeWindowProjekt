@@ -1,0 +1,17 @@
+Tablica wynikow dla pomoziomu SREDNI
+miejsce    wynik
+1  	26
+2  	10
+3  	4
+4  	2
+5  	2
+6  	1
+7  	1
+8  	1
+9  	1
+10	1
+11	0
+12	0
+13	0
+14	0
+15	0

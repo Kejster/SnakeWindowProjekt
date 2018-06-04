@@ -23,6 +23,7 @@
     <ProjectGuid>{38D82BF0-EED4-4A07-BF59-8F020759DD50}</ProjectGuid>
     <RootNamespace>SnakeWindowProjekt</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>SnakeWindowProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,6 +116,81 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="PrototypyWindow.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImplementacjaWindow.cpp" />
+    <ClCompile Include="SnakeWindowMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Grafika\hbmpBlad.bmp" />
+    <Image Include="Grafika\hbmpCialoPionowo.bmp" />
+    <Image Include="Grafika\hbmpCialoPoziomo.bmp" />
+    <Image Include="Grafika\hbmpCialo_Weza.bmp" />
+    <Image Include="Grafika\hbmpEfekt.bmp" />
+    <Image Include="Grafika\hbmpGlowaD.bmp" />
+    <Image Include="Grafika\hbmpGlowaD_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaG.bmp" />
+    <Image Include="Grafika\hbmpGlowaG_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaL.bmp" />
+    <Image Include="Grafika\hbmpGlowaL_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaP.bmp" />
+    <Image Include="Grafika\hbmpGlowaP_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretDL_G_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretDL_P_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretDP_G_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretDP_L_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretGL_D_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretGL_P_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretGP_D_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowaSkretGP_L_DEAD.bmp" />
+    <Image Include="Grafika\hbmpGlowa_Weza.bmp" />
+    <Image Include="Grafika\hbmpKlawiszA.bmp" />
+    <Image Include="Grafika\hbmpKlawiszA_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszD.bmp" />
+    <Image Include="Grafika\hbmpKlawiszD_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszS.bmp" />
+    <Image Include="Grafika\hbmpKlawiszSpacja.bmp" />
+    <Image Include="Grafika\hbmpKlawiszSpacja_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_D.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_D_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_G.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_G_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_L.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_L_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_P.bmp" />
+    <Image Include="Grafika\hbmpKlawiszStrzalka_P_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszS_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpKlawiszW.bmp" />
+    <Image Include="Grafika\hbmpKlawiszW_Zaznaczone.bmp" />
+    <Image Include="Grafika\hbmpOgonD.bmp" />
+    <Image Include="Grafika\hbmpOgonG.bmp" />
+    <Image Include="Grafika\hbmpOgonL.bmp" />
+    <Image Include="Grafika\hbmpOgonP.bmp" />
+    <Image Include="Grafika\hbmpOwoc.bmp" />
+    <Image Include="Grafika\hbmpScianaDL.bmp" />
+    <Image Include="Grafika\hbmpScianaDP.bmp" />
+    <Image Include="Grafika\hbmpScianaGL.bmp" />
+    <Image Include="Grafika\hbmpScianaGP.bmp" />
+    <Image Include="Grafika\hbmpScianaPionowo.bmp" />
+    <Image Include="Grafika\hbmpScianaPoziomo.bmp" />
+    <Image Include="Grafika\hbmpSkretDL.bmp" />
+    <Image Include="Grafika\hbmpSkretDP.bmp" />
+    <Image Include="Grafika\hbmpSkretGL.bmp" />
+    <Image Include="Grafika\hbmpSkretGP.bmp" />
+    <Image Include="Grafika\hbmpTrawaTlo.bmp" />
+    <Image Include="Grafika\Ikona.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Prace C++\SnakePliki\HMENU.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TabliceWynikow\tablicaWynikowLATWY.txt" />
+    <Text Include="TabliceWynikow\tablicaWynikowNORMALNY.txt" />
+    <Text Include="TabliceWynikow\tablicaWynikowOP.txt" />
+    <Text Include="TabliceWynikow\tablicaWynikowSREDNI.txt" />
+    <Text Include="TabliceWynikow\tablicaWynikowTRUDNY.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
